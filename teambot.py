@@ -4,6 +4,7 @@ import asyncio
 from datetime import datetime, timedelta
 import os
 import sys
+slrb_token = slrb_token = os.environ['slrb_token']
 
 client = commands.Bot(command_prefix='!!')
 
@@ -226,4 +227,4 @@ async def rect(ctx):
 
 
 # Botの起動とDiscordサーバーへの接続
-client.run(TOKEN)
+client.run(slrb_token)
