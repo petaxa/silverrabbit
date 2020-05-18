@@ -7,8 +7,6 @@ import sys
 
 client = commands.Bot(command_prefix='!!')
 
-TOKEN = 'NzExOTA5NzEyNTc2MTE4ODM2.XsKAlg.LnTTVLP3wqmeVABQnspPbbzmYI4'
-
 @client.event
 async def on_ready():
     print('Logged in as')
