@@ -28,11 +28,11 @@ async def rect(ctx):
     cnt4 = int(6)
     cnt5 = int(6)
     # パテメン配列
-    partyOne = ["name"]
-    partyTwo = ['name']
-    partyThree = ['name']
-    partyFour = ['name']
-    partyFive = ['name']
+    partyOne = [">>name"]
+    partyTwo = ['>>name']
+    partyThree = ['>>name']
+    partyFour = ['>>name']
+    partyFive = ['>>name']
     # 初期Embed
     test = discord.Embed(title='現在のパーティー編成',color=0x1e90ff)
     test.add_field(name="----------------", value="パーティー１",inline=False)
